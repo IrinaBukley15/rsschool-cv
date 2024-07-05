@@ -86,3 +86,46 @@ pre {
 .ru.active, .en.active {
     color: #8d4788;
 }
+
+.title {
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 0 1.5rem 0;
+}
+.subtitle {
+    font-size: 1.75rem;
+    color: #613b5e;
+    margin: 1rem 0 0.5rem 0;
+}
+.about, .prof, .edu, .quote, .contacts, .education {
+    margin: 0 0 2rem 0;
+}
+.about__descr p{
+    font-size: 1.25rem;
+    max-width: 90%;
+    margin: 1rem 0;
+}
+.prof__block-title {
+    font-size: 1.5rem;
+    color: #8d4788;
+    margin: 1.5rem 0 0.5rem 0;
+}
+.prof__block-skills, .prof__block-descr {
+    margin: 1rem 0;
+}
+.prof__block-skills p, .prof__block-descr p {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem 0;
+}
+.edu {
+    display: flex;
+    justify-content: space-between;
+}
+.courses {
+    margin: 0 2rem 0 0;
+}
+.courses__list-item, .hobby__list-item, .quote__list-item {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+}
