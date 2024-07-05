@@ -1,3 +1,88 @@
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Autour One', cursive;
+}
+.wrapper {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+}
+.container {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 5;
+}
+.header {
+    background: url('./img/top.jpg') no-repeat;
+    background-position: center;
+    min-height: 250px;
+    position: relative;
+    z-index: 1;
+    padding: 50px 100px;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.header__title, .header__descr p  {
+    color: #ffffff;
+    text-align: right;
+}
+.header__title {
+    font-size: 3rem;
+    letter-spacing: 6px;
+}
+.header__descr p {
+    margin: 20px 0 0 0;
+    font-size: 1.5rem;
+}
+.header__avatar {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    z-index: 6;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header__avatar img {
+    width: 100%;
+}
+.ru:hover, .en:hover {
+    color: #8d4788;
+}
+.language {
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+}
+pre {
+    color: #ffffff;
+}
+.ru, .en {
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.ru.active, .en.active {
+    color: #8d4788;
 }
