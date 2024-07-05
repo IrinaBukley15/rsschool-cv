@@ -1,1 +1,1 @@
-1. https://IrinaBukley15.github.io/rsschool-cv/cv
+1. https://IrinaBukley15.github.io/rsschool-cv
