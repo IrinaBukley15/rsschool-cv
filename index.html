@@ -10,10 +10,10 @@
 <body>
   <header class="header">
     <div class="container">
-        <div class="language">
+        <nav class="language">
             <div data-i18="en" id="en" class="en">en</div><pre>  /  </pre>
             <div data-i18="ru" id="ru" class="ru active"> ru</div>
-        </div>
+        </nav>
         <h1 data-i18="name" class="header__title">Ирина Буклей</h1>
         <div class="header__descr">
             <p data-i18="open" >Открыта для предложений и новых проектов</p>
@@ -138,6 +138,29 @@
                 </ul>
             </div>
         </section>
+        <section class="code-example">
+            <h2 data-i18="code-example" class="subtitle">Пример кода</h2>
+            <pre>
+                function getTranslate(lang) {
+                    const elems = document.querySelectorAll('[data-i18]'); 
+                    const objKeysEn = i18Obj.en;
+                    const objKeysRu = i18Obj.ru;
+                    elems.forEach( (elem) => {
+                        let currentElem = elem.getAttribute('data-i18');
+                        for(let key in objKeysEn){
+                            if(currentElem === key){
+                                console.log( objKeysEn[key], objKeysRu[key]);
+                                if(lang === ru) {
+                                    elem.textContent = objKeysRu[key];
+                                }else {
+                                    elem.textContent = objKeysEn[key];
+                                }
+                            }
+                        }
+                    });
+                }
+            </pre>
+        </section>
         <section class="quote">
             <h2 data-i18="quotes" class="subtitle">Топ-3 мои любимые цитаты</h2>
             <ul class="quote__list">
@@ -229,5 +252,6 @@
         </a>
     </div>
 </footer>
+<script src="./script.js"></script>
 </body>
 </html>

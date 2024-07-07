@@ -206,6 +206,9 @@ pre {
 .skills__list {
     margin: 20px 0 0 0;
 }
+.code-example pre {
+    color: #000000;
+}
 .footer {
     background: url('./img/top.jpg') no-repeat;
     background-position: center;
