@@ -32,3 +32,24 @@ In my current workplace, I have reached the ceiling. I need activities in which 
             * HTML/CSS
             * JavaScript + React (in process…)
 	      * 
+
+## Work experience:
+* Project Marvel
+
+## Code example:
+
+```JavaScript
+function initAccordions() {
+    document
+      .querySelectorAll(".accordion .accordion__show-more")
+      .forEach( function (btnEl) {
+        btnEl.addEventListener("click", function (event) {
+          event.currentTarget
+            .closest(".accordion")
+            .classList.toggle("accordion_opened");
+        });
+      } );
+  }
+  
+  initAccordions();
+```
