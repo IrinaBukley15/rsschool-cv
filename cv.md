@@ -53,3 +53,14 @@ function initAccordions() {
   
   initAccordions();
 ```
+
+## Languages
+* _Russian_  - native speaker.
+* _English_ - A2 (B1 in process…)
+
+## _My strengths:_
+* Quick learner
+* Full immersion in the essence of the problems
+* Diligence
+* Team playing
+* Blind typing in Russian and English
