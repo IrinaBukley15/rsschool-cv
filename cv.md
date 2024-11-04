@@ -4,7 +4,7 @@
 
 ## Contact information:
 ** Phone: ** +375 29 3310756
-** GitHub: ** https://github.com/IrinaBukley23/
+** GitHub: ** https://github.com/IrinaBukley15/
 ** Telegram: ** @irina_bukley
 ** LinkedIn: ** https://www.linkedin.com/feed/
 
@@ -27,7 +27,7 @@ In my current workplace, I have reached the ceiling. I need activities in which 
       * Belarusian National Technical University
       * Academy of Postgraduate Education
 * _Courses:_ 
-        * RS Schools Course «JavaScript/Front-end. Stage 0»;
+        * RS Schools Course «JavaScript/Front-end. Pre-School»;
         * Udemy:
             * HTML/CSS
             * JavaScript + React (in process…)
@@ -56,7 +56,7 @@ function initAccordions() {
 
 ## Languages
 * _Russian_  - native speaker.
-* _English_ - A2 (B1 in process…)
+* _English_ - B1 (B2 in process…)
 
 ## _My strengths:_
 * Quick learner
